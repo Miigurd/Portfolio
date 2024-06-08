@@ -96,7 +96,9 @@ nav .menu{
 .section2,
 .section3,
 .section4,
-.section5{
+.section5,
+.section6,
+.section7{
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -125,13 +127,10 @@ nav .menu{
 .section2,
 .section3,
 .section4,
-.section5{
+.section5,
+.section6,
+.section7{
   background: white;
-}
-.section3{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 .container{
   margin-left: auto;
@@ -170,8 +169,7 @@ nav .menu{
 }
 .gallery-heading{
   width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto;
   font-family: 'Franklin Gothic Heavy';
   font-size: 100px;
   color: black;
@@ -181,7 +179,7 @@ nav .menu{
 .gallery-container{
   align-items: center;
   display: flex;
-  height: 400px;
+  height: 200px;
   margin: 0 auto;
   max-width: 1000px;
   position: relative;
@@ -249,7 +247,7 @@ nav .menu{
 }
 .gallery-controls-previous{
   position: relative;
-  top: 70px;
+  top: 170px;
 }
 .gallery-controls-previous::before{
   border: solid #000;
@@ -270,7 +268,7 @@ nav .menu{
 }
 .gallery-controls-next{
   position: relative;
-  top: 70px;
+  top: 170px;
 }
 .gallery-controls-next::before{
   border: solid #000;
@@ -324,7 +322,7 @@ nav .menu{
 .gallery2-container{
   align-items: center;
   display: flex;
-  height: 400px;
+  height: 200px;
   margin: 0 auto;
   max-width: 1000px;
   position: relative;
@@ -392,7 +390,7 @@ nav .menu{
 }
 .gallery2-controls-previous{
   position: relative;
-  top: 70px;
+  top: 170px;
 }
 .gallery2-controls-previous::before{
   border: solid #000;
@@ -413,7 +411,7 @@ nav .menu{
 }
 .gallery2-controls-next{
   position: relative;
-  top: 70px;
+  top: 170px;
 }
 .gallery2-controls-next::before{
   border: solid #000;
@@ -467,7 +465,7 @@ nav .menu{
 .gallery3-container{
   align-items: center;
   display: flex;
-  height: 400px;
+  height: 200px;
   margin: 0 auto;
   max-width: 1000px;
   position: relative;
@@ -535,7 +533,7 @@ nav .menu{
 }
 .gallery3-controls-previous{
   position: relative;
-  top: 70px;
+  top: 170px;
 }
 .gallery3-controls-previous::before{
   border: solid #000;
@@ -556,7 +554,7 @@ nav .menu{
 }
 .gallery3-controls-next{
   position: relative;
-  top: 70px;
+  top: 170px;
 }
 .gallery3-controls-next::before{
   border: solid #000;
@@ -593,4 +591,19 @@ nav .menu{
 }
 .gallery3-nav li.gallery-item-selected{
   background: #555;
+}
+.missvis{
+  width: 40%;
+  float: left;
+  font-size: 25px;
+  margin-top: 7.5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+}
+.missvis h2{
+  font-weight: bold;
+}
+.missvis p{
+  text-align: justify;
 }
