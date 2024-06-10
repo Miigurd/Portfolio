@@ -188,7 +188,7 @@ nav .menu{
   height: 200px;
   opacity: 0;
   position: absolute;
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
   width: 330px;
   z-index: 0;
   border-radius: 15px;
@@ -331,7 +331,7 @@ nav .menu{
   height: 200px;
   opacity: 0;
   position: absolute;
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
   width: 330px;
   z-index: 0;
   border-radius: 15px;
@@ -474,7 +474,7 @@ nav .menu{
   height: 200px;
   opacity: 0;
   position: absolute;
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
   width: 330px;
   z-index: 0;
   border-radius: 15px;
@@ -603,6 +603,14 @@ nav .menu{
 }
 .missvis p{
   text-align: justify;
+}
+.video-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+video{
+  width: 100%;
 }
 .footer-basic {
   padding:40px 0;
